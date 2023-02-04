@@ -77,3 +77,10 @@ a:hover{
 .rectangle{
     background-color: var(--navbar-color);
 }
+.last-part{
+    padding: 50px;
+    text-align: center;
+    background-color: var(--navbar-color);
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
