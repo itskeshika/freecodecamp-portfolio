@@ -35,19 +35,45 @@
     justify-content: center;
     align-items: center;
 }
-
 .introduction{
     font-size: larger;
     text-align: center;
     font-family: var(--itim-font);
 }
-
 .welcome-section{
-    background-color: var(--welcome-background);
     padding:65px;
+    background-color: var(--welcome-background);
 }
 .project-header{
     text-align: center;
     padding:35px;
+    font-family: var(--itim-font);
     border:2px dotted var(--border-color);
+}
+a{
+    font-size: larger;
+    text-decoration: none;
+    color:black;
+    font-family: var(--itim-font);
+    
+}
+a:hover{
+    text-decoration: underline;
+    font-style: italic;
+}
+.project-title{
+    list-style-type: disc;
+}
+.titles{
+    padding: 25px;
+    border: 2px dashed var(--border-color);
+}
+.contact-me{
+    text-align: center;
+    padding: 50px;
+    font-family: var(--itim-font);
+    background-color: var(--welcome-background);
+}
+.rectangle{
+    background-color: var(--navbar-color);
 }
