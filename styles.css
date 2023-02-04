@@ -1,21 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Hanken+Grotesk:ital,wght@1,300&family=Heebo&family=Inconsolata:wght@300;400&family=Itim&family=Montserrat:wght@300&family=Open+Sans:ital,wght@1,300&family=Roboto+Condensed&family=Space+Mono&display=swap');
+
+
+:root{
+    --navbar-color:#5b21b6;
+    --welcome-background:#818cf8;
+    --border-color: #4f46e5;
+    --itim-font: 'Itim', cursive;
+}
 *{
     margin: 0;
     padding: 0;
 }
-
-body{
-    background-color: #262626;
-}
-
 .list-non-bullet{
     list-style: none;
 }
-
+.nav-bar>li{
+    display: inline;
+    padding: 15px 15px;
+}
+.nav-bar{
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: right;
+    color: white;
+    background-color: var(--navbar-color);
+}
 .image1 {
     width: 215px;
     height: 215px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 50%;
-  }
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction{
+    font-size: larger;
+    text-align: center;
+    font-family: var(--itim-font);
+}
+
+.welcome-section{
+    background-color: var(--welcome-background);
+    padding:65px;
+}
+.project-header{
+    text-align: center;
+    padding:35px;
+    border:2px dotted var(--border-color);
+}
